@@ -1,0 +1,17 @@
+import datetime
+
+today_time = datetime.datetime.now()
+print(today_time)
+print(today_time.year)
+print(today_time.month)
+print(today_time.day)
+print(today_time.strftime("%Y年%m月%d日"))
+print(today_time.strftime("%#Y年%#m月%#d日"))
+print(today_time.strftime("%Y年%m月"))
+print(today_time.strftime("%#Y年%#m月"))
+print(today_time.strftime("%Y/%m/%d"))
+print(today_time.strftime("%Y%m%d"))
+print(today_time.strftime("%x %X"))
+print(today_time.strftime("%a,%A"))
+print(today_time.strftime("%#Y年  %#m月  %#d日"))
+print(today_time.strftime("%#Yねん  %#mがつ  %#dにち"))
